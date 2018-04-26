@@ -5,6 +5,8 @@
 
 This image contains [Google Course Builder](https://edu.google.com/openonline/course-builder/docs/1.11/index.html) bundled with Google Cloud SDK.
 
+Prepared image available on [Docker Hub](https://hub.docker.com/r/x1unix/google-course-builder/)
+
 ### Exposed ports
 
 * `8080` - Course Builder
