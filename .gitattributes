@@ -1,0 +1,2 @@
+*.zip filter=lfs diff=lfs merge=lfs -text
+coursebuilder/lib/*.zip filter=lfs diff=lfs merge=lfs -text

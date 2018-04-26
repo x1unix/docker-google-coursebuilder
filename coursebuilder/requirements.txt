@@ -1,0 +1,8 @@
+setuptools
+pyopenssl
+jinja2==2.6
+Pillow==1.1
+pycrypto==2.6
+webapp2==2.5.2
+webob==1.2.3
+lxml==2.3

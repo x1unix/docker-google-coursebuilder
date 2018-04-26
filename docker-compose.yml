@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  app:
+    image: x1unix/google-course-builder:latest
+    container_name: course-builder
+    ports:
+      - 12080:8080
+      - 12081:8000
+    expose:
+      - 8080
+      - 8000

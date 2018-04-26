@@ -1,0 +1,1 @@
+docker run --rm -p 18000:8000 -p 18080:8080 -it x1unix/google-course-builder:latest

@@ -1,0 +1,28 @@
+Directory location for tests from external modules.
+
+Say you have a project for a Course Builder module foo with the following
+structure:
+
+  /foo
+    /src
+      __init__.py
+      foo.py
+    /tests
+      __init__.py
+      foo_test.py
+
+This directory is where you symlink your tests into your Course Builder tree so
+their imports resolve neatly. The intended structure for this directory given
+the module above is:
+
+  /coursebuilder/tests/ext
+    /foo
+      foo_test.py
+
+which can be achieved by symlinking from /foo/tests to
+/coursebuilder/tests/ext/foo. Then, you can run your tests via
+
+  $ coursebuilder/scripts/test.sh tests.ext.foo.foo_test
+
+This assumes you have also symlinked from /foo/src to
+/coursebuilder/modules/foo.

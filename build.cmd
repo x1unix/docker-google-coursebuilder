@@ -1,0 +1,1 @@
+docker build --build-arg CLOUD_SDK_VERSION=159.0.0 --build-arg INSTALL_COMPONENTS="google-cloud-sdk-datastore-emulator" -t x1unix/google-course-builder:latest . 
